@@ -1,0 +1,13 @@
+//
+//  PrefixHeader.pch
+//
+//  Created by Yu Sugawara on 4/17/15.
+//  Copyright (c) 2015 Yu Sugawara. All rights reserved.
+//
+
+#import "CocoaLumberjackLauncher.h"
+
+#if defined(LOG_ASYNC_ENABLED)
+#undef LOG_ASYNC_ENABLED
+#define LOG_ASYNC_ENABLED NO
+#endif
