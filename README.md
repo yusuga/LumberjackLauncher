@@ -16,7 +16,7 @@ Very simple [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack
 ## Installation
 
 ```
-pod 'CocoaLumberjackLauncher', :git => 'https://github.com/yusuga/CocoaLumberjackLauncher.git'
+pod 'CocoaLumberjackLauncher'
 ```
 
 ## Usage
