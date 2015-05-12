@@ -1,5 +1,5 @@
 //
-//  CocoaLumberjackLauncher.h
+//  LumberjackLauncher.h
 //
 //  Created by Yu Sugawara on 4/17/15.
 //  Copyright (c) 2015 Yu Sugawara. All rights reserved.
@@ -16,18 +16,18 @@
  Launch Xcode console logger and Apple system logger.
  
  ```
- [CocoaLumberjackLauncher launchStandardLoggers];
+ [LumberjackLauncher launchStandardLoggers];
  ```
  
  ### Dynamically changing log levels
  
  ```
- [CocoaLumberjackLauncher changeStandardLoggersLevel:DDLogLevelWarning];
+ [LumberjackLauncher changeStandardLoggersLevel:DDLogLevelWarning];
  ```
  
  ### Set Xcode console log colors
  ```
- [CocoaLumberjackLauncher setXcodeConsoleLogColorsWithErrorColor:[UIColor redColor]
+ [LumberjackLauncher setXcodeConsoleLogColorsWithErrorColor:[UIColor redColor]
  warningColor:[UIColor yellowColor]
  infoColor:[UIColor darkGrayColor]
  debugColor:[UIColor greenColor]
@@ -36,7 +36,7 @@
  ### Show console in app
  
  ```
- [CocoaLumberjackLauncher showAppConsole];
+ [LumberjackLauncher showAppConsole];
  ```
  
  ## Tips
@@ -52,7 +52,7 @@
  */
 
 NS_ASSUME_NONNULL_BEGIN
-@interface CocoaLumberjackLauncher : NSObject
+@interface LumberjackLauncher : NSObject
 
 ///-------------
 /// @name Launch
@@ -61,9 +61,9 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)launchStandardLoggers;
 + (void)launchStandardLoggersWithLevel:(DDLogLevel)level;
 
-///---------------
+///----------------
 /// @name Log Level
-///---------------
+///----------------
 
 + (void)changeStandardLoggersLevel:(DDLogLevel)level;
 + (DDLogLevel)standardLoggersLogLevel;

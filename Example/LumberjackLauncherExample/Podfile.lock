@@ -14,7 +14,7 @@ PODS:
 
 DEPENDENCIES:
   - CocoaLumberjack (~> 2.0.0)
-  - LumberjackConsole (~> 2.4.3)
+  - LumberjackConsole
 
 SPEC CHECKSUMS:
   CocoaLumberjack: a6f77d987d65dc7ba86b0f84db7d0b9084f77bcb

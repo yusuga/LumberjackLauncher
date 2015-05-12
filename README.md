@@ -1,4 +1,4 @@
-# CocoaLumberjackLauncher
+# LumberjackLauncher
 
 Very simple [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack) launcher.
 
@@ -16,7 +16,7 @@ Very simple [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack
 ## Installation
 
 ```
-pod 'CocoaLumberjackLauncher'
+pod 'LumberjackLauncher'
 ```
 
 ## Usage
@@ -26,29 +26,30 @@ pod 'CocoaLumberjackLauncher'
 Launch Xcode console logger and Apple system logger.
 
 ```
-[CocoaLumberjackLauncher launchStandardLoggers];
+[LumberjackLauncher launchStandardLoggers];
 ```
 
 ### Dynamically changing log levels
 
 ```
-[CocoaLumberjackLauncher changeStandardLoggersLevel:DDLogLevelWarning];
+[LumberjackLauncher changeStandardLoggersLevel:DDLogLevelWarning];
 ```
 
 ### Set Xcode console log colors
 ```
-[CocoaLumberjackLauncher setXcodeConsoleLogColorsWithErrorColor:[UIColor redColor]
-                                                   warningColor:[UIColor yellowColor]
-                                                      infoColor:[UIColor darkGrayColor]
-                                                     debugColor:[UIColor greenColor]
-                                                   verboseColor:nil];
+[LumberjackLauncher setXcodeConsoleLogColorsWithErrorColor:[UIColor redColor]
+                                              warningColor:[UIColor yellowColor]
+                                                 infoColor:[UIColor darkGrayColor]
+                                                debugColor:[UIColor greenColor]
+                                              verboseColor:nil];
 ```
 
 ### Show/Hide console in app
 
 ```
-[CocoaLumberjackLauncher showAppConsole];
-[CocoaLumberjackLauncher hideAppConsole];
+[LumberjackLauncher showAppConsole];
+
+[LumberjackLauncher hideAppConsole];
 ```
 
 ## Tips

@@ -1,6 +1,6 @@
 //
-//  CocoaLumberjackLauncherExampleTests.m
-//  CocoaLumberjackLauncherExampleTests
+//  LumberjackLauncherExampleTests.m
+//  LumberjackLauncherExampleTests
 //
 //  Created by Yu Sugawara on 4/17/15.
 //  Copyright (c) 2015 Yu Sugawara. All rights reserved.
@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface CocoaLumberjackLauncherExampleTests : XCTestCase
+@interface LumberjackLauncherExampleTests : XCTestCase
 
 @end
 
-@implementation CocoaLumberjackLauncherExampleTests
+@implementation LumberjackLauncherExampleTests
 
 - (void)setUp {
     [super setUp];

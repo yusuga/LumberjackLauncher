@@ -1,11 +1,11 @@
 //
-//  CocoaLumberjackLauncher.m
+//  LumberjackLauncher.m
 //
 //  Created by Yu Sugawara on 4/17/15.
 //  Copyright (c) 2015 Yu Sugawara. All rights reserved.
 //
 
-#import "CocoaLumberjackLauncher.h"
+#import "LumberjackLauncher.h"
 #import <LumberjackConsole/PTEDashboard.h>
 #import <LumberjackConsole/PTEConsoleLogger.h>
 
@@ -33,7 +33,7 @@ NSString *NSStringFromDDLogLevel(DDLogLevel level)
 }
 
 NS_ASSUME_NONNULL_BEGIN
-@implementation CocoaLumberjackLauncher
+@implementation LumberjackLauncher
 
 static DDLogLevel __standardLoggersLogLevel = DDLogLevelAll;
 static DDLogLevel __appConsoleLoggerLogLevel = DDLogLevelAll;
@@ -43,7 +43,7 @@ static PTEConsoleLogger *__appConsoleLogger;
 
 + (void)initialize
 {
-    if (self == [CocoaLumberjackLauncher class]) {
+    if (self == [LumberjackLauncher class]) {
         /**
          * Enables XcodeColors (you obviously have to install it too)
          * Note: The XcodeColors is necessary before add logger

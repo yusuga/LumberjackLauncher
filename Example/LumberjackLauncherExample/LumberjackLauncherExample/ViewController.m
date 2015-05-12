@@ -1,13 +1,13 @@
 //
 //  ViewController.m
-//  CocoaLumberjackLauncherExample
+//  LumberjackLauncherExample
 //
 //  Created by Yu Sugawara on 4/17/15.
 //  Copyright (c) 2015 Yu Sugawara. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "CocoaLumberjackLauncher.h"
+#import "LumberjackLauncher.h"
 
 @interface ViewController ()
 
@@ -19,13 +19,13 @@
 {
     [super viewDidLoad];
     
-    [CocoaLumberjackLauncher launchStandardLoggers];
+    [LumberjackLauncher launchStandardLoggers];
     
-    [CocoaLumberjackLauncher setXcodeConsoleLogColorsWithErrorColor:[UIColor redColor]
-                                                       warningColor:[UIColor yellowColor]
-                                                          infoColor:[UIColor darkGrayColor]
-                                                         debugColor:[UIColor greenColor]
-                                                       verboseColor:nil];
+    [LumberjackLauncher setXcodeConsoleLogColorsWithErrorColor:[UIColor redColor]
+                                                  warningColor:[UIColor yellowColor]
+                                                     infoColor:[UIColor darkGrayColor]
+                                                    debugColor:[UIColor greenColor]
+                                                  verboseColor:nil];
     dd_func_debug_pre(@"Launch Standard Loggers!", nil);
 }
 
@@ -65,15 +65,15 @@
             break;
     }
     
-    [CocoaLumberjackLauncher changeStandardLoggersLevel:logLevel];
-    [CocoaLumberjackLauncher changeAppConsoleLoggerLevel:logLevel];
+    [LumberjackLauncher changeStandardLoggersLevel:logLevel];
+    [LumberjackLauncher changeAppConsoleLoggerLevel:logLevel];
     
-    NSLog(@"Change log level = %@", NSStringFromDDLogLevel([CocoaLumberjackLauncher standardLoggersLogLevel]));
+    NSLog(@"Change log level = %@", NSStringFromDDLogLevel([LumberjackLauncher standardLoggersLogLevel]));
 }
 
 - (IBAction)log
 {
-    NSLog(@"Log level = %@", NSStringFromDDLogLevel([CocoaLumberjackLauncher standardLoggersLogLevel]));
+    NSLog(@"Log level = %@", NSStringFromDDLogLevel([LumberjackLauncher standardLoggersLogLevel]));
     DDLogError(@"DDLogError");
     DDLogWarn(@"DDLogWarn");
     DDLogInfo(@"DDLogInfo");
@@ -85,10 +85,10 @@
 - (IBAction)toggleConsole:(UISwitch *)sender
 {
     if (sender.on) {
-        [CocoaLumberjackLauncher showAppConsole];
-        NSLog(@"App console log level = %@\n", NSStringFromDDLogLevel([CocoaLumberjackLauncher appConsoleLoggerLevel]));
+        [LumberjackLauncher showAppConsole];
+        NSLog(@"App console log level = %@\n", NSStringFromDDLogLevel([LumberjackLauncher appConsoleLoggerLevel]));
     } else {
-        [CocoaLumberjackLauncher hideAppConsole];
+        [LumberjackLauncher hideAppConsole];
     }
 }
 

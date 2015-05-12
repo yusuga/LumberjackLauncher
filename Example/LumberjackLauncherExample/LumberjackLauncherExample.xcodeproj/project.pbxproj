@@ -14,8 +14,8 @@
 		B87258B81AE0A70700B93482 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B87258B61AE0A70700B93482 /* Main.storyboard */; };
 		B87258BA1AE0A70700B93482 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B87258B91AE0A70700B93482 /* Images.xcassets */; };
 		B87258BD1AE0A70700B93482 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B87258BB1AE0A70700B93482 /* LaunchScreen.xib */; };
-		B87258C91AE0A70700B93482 /* CocoaLumberjackLauncherExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B87258C81AE0A70700B93482 /* CocoaLumberjackLauncherExampleTests.m */; };
-		B87258D51AE0A85700B93482 /* CocoaLumberjackLauncher.m in Sources */ = {isa = PBXBuildFile; fileRef = B87258D41AE0A85700B93482 /* CocoaLumberjackLauncher.m */; };
+		B87258C91AE0A70700B93482 /* LumberjackLauncherExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B87258C81AE0A70700B93482 /* LumberjackLauncherExampleTests.m */; };
+		B87258D51AE0A85700B93482 /* LumberjackLauncher.m in Sources */ = {isa = PBXBuildFile; fileRef = B87258D41AE0A85700B93482 /* LumberjackLauncher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +31,7 @@
 /* Begin PBXFileReference section */
 		23CE399835D3D02DA2B99EC1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		388CD2240C2648D269E11CB5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B87258A91AE0A70700B93482 /* CocoaLumberjackLauncherExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaLumberjackLauncherExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B87258A91AE0A70700B93482 /* LumberjackLauncherExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LumberjackLauncherExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B87258AD1AE0A70700B93482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B87258AE1AE0A70700B93482 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B87258B01AE0A70700B93482 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,11 +41,11 @@
 		B87258B71AE0A70700B93482 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B87258B91AE0A70700B93482 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B87258BC1AE0A70700B93482 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B87258C21AE0A70700B93482 /* CocoaLumberjackLauncherExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaLumberjackLauncherExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B87258C21AE0A70700B93482 /* LumberjackLauncherExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LumberjackLauncherExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B87258C71AE0A70700B93482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B87258C81AE0A70700B93482 /* CocoaLumberjackLauncherExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaLumberjackLauncherExampleTests.m; sourceTree = "<group>"; };
-		B87258D31AE0A85700B93482 /* CocoaLumberjackLauncher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaLumberjackLauncher.h; sourceTree = "<group>"; };
-		B87258D41AE0A85700B93482 /* CocoaLumberjackLauncher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaLumberjackLauncher.m; sourceTree = "<group>"; };
+		B87258C81AE0A70700B93482 /* LumberjackLauncherExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LumberjackLauncherExampleTests.m; sourceTree = "<group>"; };
+		B87258D31AE0A85700B93482 /* LumberjackLauncher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LumberjackLauncher.h; sourceTree = "<group>"; };
+		B87258D41AE0A85700B93482 /* LumberjackLauncher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LumberjackLauncher.m; sourceTree = "<group>"; };
 		B87258D61AE0AB1500B93482 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		D0C18A032DBCAB1FA7501E16 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,9 +89,9 @@
 		B87258A01AE0A70700B93482 = {
 			isa = PBXGroup;
 			children = (
-				B87258AB1AE0A70700B93482 /* CocoaLumberjackLauncherExample */,
-				B87258D21AE0A82000B93482 /* CocoaLumberjackLauncher */,
-				B87258C51AE0A70700B93482 /* CocoaLumberjackLauncherExampleTests */,
+				B87258AB1AE0A70700B93482 /* LumberjackLauncherExample */,
+				B87258D21AE0A82000B93482 /* LumberjackLauncher */,
+				B87258C51AE0A70700B93482 /* LumberjackLauncherExampleTests */,
 				B87258AA1AE0A70700B93482 /* Products */,
 				86D324196945A5CDCA9E750D /* Pods */,
 				0838AB266B8AF0DB02FDDC1A /* Frameworks */,
@@ -101,13 +101,13 @@
 		B87258AA1AE0A70700B93482 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B87258A91AE0A70700B93482 /* CocoaLumberjackLauncherExample.app */,
-				B87258C21AE0A70700B93482 /* CocoaLumberjackLauncherExampleTests.xctest */,
+				B87258A91AE0A70700B93482 /* LumberjackLauncherExample.app */,
+				B87258C21AE0A70700B93482 /* LumberjackLauncherExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B87258AB1AE0A70700B93482 /* CocoaLumberjackLauncherExample */ = {
+		B87258AB1AE0A70700B93482 /* LumberjackLauncherExample */ = {
 			isa = PBXGroup;
 			children = (
 				B87258B01AE0A70700B93482 /* AppDelegate.h */,
@@ -119,7 +119,7 @@
 				B87258BB1AE0A70700B93482 /* LaunchScreen.xib */,
 				B87258AC1AE0A70700B93482 /* Supporting Files */,
 			);
-			path = CocoaLumberjackLauncherExample;
+			path = LumberjackLauncherExample;
 			sourceTree = "<group>";
 		};
 		B87258AC1AE0A70700B93482 /* Supporting Files */ = {
@@ -132,13 +132,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B87258C51AE0A70700B93482 /* CocoaLumberjackLauncherExampleTests */ = {
+		B87258C51AE0A70700B93482 /* LumberjackLauncherExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				B87258C81AE0A70700B93482 /* CocoaLumberjackLauncherExampleTests.m */,
+				B87258C81AE0A70700B93482 /* LumberjackLauncherExampleTests.m */,
 				B87258C61AE0A70700B93482 /* Supporting Files */,
 			);
-			path = CocoaLumberjackLauncherExampleTests;
+			path = LumberjackLauncherExampleTests;
 			sourceTree = "<group>";
 		};
 		B87258C61AE0A70700B93482 /* Supporting Files */ = {
@@ -149,22 +149,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B87258D21AE0A82000B93482 /* CocoaLumberjackLauncher */ = {
+		B87258D21AE0A82000B93482 /* LumberjackLauncher */ = {
 			isa = PBXGroup;
 			children = (
-				B87258D31AE0A85700B93482 /* CocoaLumberjackLauncher.h */,
-				B87258D41AE0A85700B93482 /* CocoaLumberjackLauncher.m */,
+				B87258D31AE0A85700B93482 /* LumberjackLauncher.h */,
+				B87258D41AE0A85700B93482 /* LumberjackLauncher.m */,
 			);
-			name = CocoaLumberjackLauncher;
-			path = ../../Classes/CocoaLumberjackLauncher;
+			name = LumberjackLauncher;
+			path = ../../Classes/LumberjackLauncher;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B87258A81AE0A70700B93482 /* CocoaLumberjackLauncherExample */ = {
+		B87258A81AE0A70700B93482 /* LumberjackLauncherExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B87258CC1AE0A70700B93482 /* Build configuration list for PBXNativeTarget "CocoaLumberjackLauncherExample" */;
+			buildConfigurationList = B87258CC1AE0A70700B93482 /* Build configuration list for PBXNativeTarget "LumberjackLauncherExample" */;
 			buildPhases = (
 				ED0E39064A5D81D33D11F7C4 /* Check Pods Manifest.lock */,
 				B87258A51AE0A70700B93482 /* Sources */,
@@ -176,14 +176,14 @@
 			);
 			dependencies = (
 			);
-			name = CocoaLumberjackLauncherExample;
+			name = LumberjackLauncherExample;
 			productName = CocoaLumberjackLauncherExample;
-			productReference = B87258A91AE0A70700B93482 /* CocoaLumberjackLauncherExample.app */;
+			productReference = B87258A91AE0A70700B93482 /* LumberjackLauncherExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B87258C11AE0A70700B93482 /* CocoaLumberjackLauncherExampleTests */ = {
+		B87258C11AE0A70700B93482 /* LumberjackLauncherExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B87258CF1AE0A70700B93482 /* Build configuration list for PBXNativeTarget "CocoaLumberjackLauncherExampleTests" */;
+			buildConfigurationList = B87258CF1AE0A70700B93482 /* Build configuration list for PBXNativeTarget "LumberjackLauncherExampleTests" */;
 			buildPhases = (
 				B87258BE1AE0A70700B93482 /* Sources */,
 				B87258BF1AE0A70700B93482 /* Frameworks */,
@@ -194,9 +194,9 @@
 			dependencies = (
 				B87258C41AE0A70700B93482 /* PBXTargetDependency */,
 			);
-			name = CocoaLumberjackLauncherExampleTests;
+			name = LumberjackLauncherExampleTests;
 			productName = CocoaLumberjackLauncherExampleTests;
-			productReference = B87258C21AE0A70700B93482 /* CocoaLumberjackLauncherExampleTests.xctest */;
+			productReference = B87258C21AE0A70700B93482 /* LumberjackLauncherExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -217,7 +217,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B87258A41AE0A70700B93482 /* Build configuration list for PBXProject "CocoaLumberjackLauncherExample" */;
+			buildConfigurationList = B87258A41AE0A70700B93482 /* Build configuration list for PBXProject "LumberjackLauncherExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -230,8 +230,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B87258A81AE0A70700B93482 /* CocoaLumberjackLauncherExample */,
-				B87258C11AE0A70700B93482 /* CocoaLumberjackLauncherExampleTests */,
+				B87258A81AE0A70700B93482 /* LumberjackLauncherExample */,
+				B87258C11AE0A70700B93482 /* LumberjackLauncherExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -297,7 +297,7 @@
 				B87258B51AE0A70700B93482 /* ViewController.m in Sources */,
 				B87258B21AE0A70700B93482 /* AppDelegate.m in Sources */,
 				B87258AF1AE0A70700B93482 /* main.m in Sources */,
-				B87258D51AE0A85700B93482 /* CocoaLumberjackLauncher.m in Sources */,
+				B87258D51AE0A85700B93482 /* LumberjackLauncher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B87258C91AE0A70700B93482 /* CocoaLumberjackLauncherExampleTests.m in Sources */,
+				B87258C91AE0A70700B93482 /* LumberjackLauncherExampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +314,7 @@
 /* Begin PBXTargetDependency section */
 		B87258C41AE0A70700B93482 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B87258A81AE0A70700B93482 /* CocoaLumberjackLauncherExample */;
+			target = B87258A81AE0A70700B93482 /* LumberjackLauncherExample */;
 			targetProxy = B87258C31AE0A70700B93482 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -424,10 +424,12 @@
 			baseConfigurationReference = 23CE399835D3D02DA2B99EC1 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
-				INFOPLIST_FILE = CocoaLumberjackLauncherExample/Info.plist;
+				INFOPLIST_FILE = LumberjackLauncherExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LumberjackLauncherExample;
 			};
 			name = Debug;
 		};
@@ -436,10 +438,12 @@
 			baseConfigurationReference = D0C18A032DBCAB1FA7501E16 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
-				INFOPLIST_FILE = CocoaLumberjackLauncherExample/Info.plist;
+				INFOPLIST_FILE = LumberjackLauncherExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LumberjackLauncherExample;
 			};
 			name = Release;
 		};
@@ -455,10 +459,10 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = CocoaLumberjackLauncherExampleTests/Info.plist;
+				INFOPLIST_FILE = LumberjackLauncherExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocoaLumberjackLauncherExample.app/CocoaLumberjackLauncherExample";
+				PRODUCT_NAME = LumberjackLauncherExampleTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LumberjackLauncherExample.app/LumberjackLauncherExample";
 			};
 			name = Debug;
 		};
@@ -470,17 +474,17 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = CocoaLumberjackLauncherExampleTests/Info.plist;
+				INFOPLIST_FILE = LumberjackLauncherExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocoaLumberjackLauncherExample.app/CocoaLumberjackLauncherExample";
+				PRODUCT_NAME = LumberjackLauncherExampleTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LumberjackLauncherExample.app/LumberjackLauncherExample";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B87258A41AE0A70700B93482 /* Build configuration list for PBXProject "CocoaLumberjackLauncherExample" */ = {
+		B87258A41AE0A70700B93482 /* Build configuration list for PBXProject "LumberjackLauncherExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B87258CA1AE0A70700B93482 /* Debug */,
@@ -489,7 +493,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B87258CC1AE0A70700B93482 /* Build configuration list for PBXNativeTarget "CocoaLumberjackLauncherExample" */ = {
+		B87258CC1AE0A70700B93482 /* Build configuration list for PBXNativeTarget "LumberjackLauncherExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B87258CD1AE0A70700B93482 /* Debug */,
@@ -498,7 +502,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B87258CF1AE0A70700B93482 /* Build configuration list for PBXNativeTarget "CocoaLumberjackLauncherExampleTests" */ = {
+		B87258CF1AE0A70700B93482 /* Build configuration list for PBXNativeTarget "LumberjackLauncherExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B87258D01AE0A70700B93482 /* Debug */,
