@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Classes/LumberjackLauncher/*.{h,m}'
   s.requires_arc = true 
   
-  s.dependency 'CocoaLumberjack', '~> 2.0.0'
+  s.dependency 'CocoaLumberjack', '2.0.0'
   s.dependency 'LumberjackConsole'
 end

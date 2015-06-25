@@ -13,7 +13,7 @@ PODS:
   - NBUCore (2.0.4)
 
 DEPENDENCIES:
-  - CocoaLumberjack (~> 2.0.0)
+  - CocoaLumberjack (= 2.0.0)
   - LumberjackConsole
 
 SPEC CHECKSUMS:
