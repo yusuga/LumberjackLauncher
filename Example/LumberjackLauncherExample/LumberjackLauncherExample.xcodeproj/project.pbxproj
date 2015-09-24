@@ -47,6 +47,7 @@
 		B87258D31AE0A85700B93482 /* LumberjackLauncher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LumberjackLauncher.h; sourceTree = "<group>"; };
 		B87258D41AE0A85700B93482 /* LumberjackLauncher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LumberjackLauncher.m; sourceTree = "<group>"; };
 		B87258D61AE0AB1500B93482 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B8CC68A31BB3E799000E8568 /* LumberjackLauncherMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LumberjackLauncherMacros.h; sourceTree = "<group>"; };
 		D0C18A032DBCAB1FA7501E16 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -154,6 +155,7 @@
 			children = (
 				B87258D31AE0A85700B93482 /* LumberjackLauncher.h */,
 				B87258D41AE0A85700B93482 /* LumberjackLauncher.m */,
+				B8CC68A31BB3E799000E8568 /* LumberjackLauncherMacros.h */,
 			);
 			name = LumberjackLauncher;
 			path = ../../Classes/LumberjackLauncher;
@@ -205,7 +207,7 @@
 		B87258A11AE0A70700B93482 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Yu Sugawara";
 				TargetAttributes = {
 					B87258A81AE0A70700B93482 = {
@@ -360,6 +362,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -429,6 +432,7 @@
 				INFOPLIST_FILE = LumberjackLauncherExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yusuga.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = LumberjackLauncherExample;
 			};
 			name = Debug;
@@ -443,6 +447,7 @@
 				INFOPLIST_FILE = LumberjackLauncherExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yusuga.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = LumberjackLauncherExample;
 			};
 			name = Release;
@@ -451,16 +456,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = LumberjackLauncherExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yusuga.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = LumberjackLauncherExampleTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LumberjackLauncherExample.app/LumberjackLauncherExample";
 			};
@@ -470,12 +473,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = LumberjackLauncherExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yusuga.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = LumberjackLauncherExampleTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LumberjackLauncherExample.app/LumberjackLauncherExample";
 			};

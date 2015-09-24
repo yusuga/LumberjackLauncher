@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "LumberjackLauncher.h"
+#import "LumberjackLauncherMacros.h"
 
 @interface ViewController ()
 
