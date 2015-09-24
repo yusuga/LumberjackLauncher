@@ -7,6 +7,7 @@
 
 #import <UIKit/UIKit.h>
 #import <CocoaLumberjack/CocoaLumberjack.h>
+#import "LumberjackLauncherMacros.h"
 
 /**
  ## Usage
