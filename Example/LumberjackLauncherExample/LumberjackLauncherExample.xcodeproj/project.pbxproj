@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		93F2F00F640390D2921FB722 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 388CD2240C2648D269E11CB5 /* libPods.a */; };
+		1F6DB1B5FD8A997078A45F5F /* libPods-LumberjackLauncherExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFB0ED9E6822299E674D6E4 /* libPods-LumberjackLauncherExampleTests.a */; };
+		8295DA0E0B8A0936C2AA96CA /* libPods-LumberjackLauncherExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C7D540966101C03C2CA934 /* libPods-LumberjackLauncherExample.a */; };
 		B87258AF1AE0A70700B93482 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B87258AE1AE0A70700B93482 /* main.m */; };
 		B87258B21AE0A70700B93482 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B87258B11AE0A70700B93482 /* AppDelegate.m */; };
 		B87258B51AE0A70700B93482 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B87258B41AE0A70700B93482 /* ViewController.m */; };
@@ -29,8 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		23CE399835D3D02DA2B99EC1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		388CD2240C2648D269E11CB5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F991A339BCE8146051F6C1B /* Pods-LumberjackLauncherExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LumberjackLauncherExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LumberjackLauncherExample/Pods-LumberjackLauncherExample.debug.xcconfig"; sourceTree = "<group>"; };
+		60C7D540966101C03C2CA934 /* libPods-LumberjackLauncherExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LumberjackLauncherExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		625917274F1CCCF8326E6063 /* Pods-LumberjackLauncherExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LumberjackLauncherExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LumberjackLauncherExampleTests/Pods-LumberjackLauncherExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8FEFAAD8E91C77222A780B34 /* Pods-LumberjackLauncherExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LumberjackLauncherExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LumberjackLauncherExampleTests/Pods-LumberjackLauncherExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		B87258A91AE0A70700B93482 /* LumberjackLauncherExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LumberjackLauncherExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B87258AD1AE0A70700B93482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B87258AE1AE0A70700B93482 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -48,7 +51,8 @@
 		B87258D41AE0A85700B93482 /* LumberjackLauncher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LumberjackLauncher.m; sourceTree = "<group>"; };
 		B87258D61AE0AB1500B93482 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		B8CC68A31BB3E799000E8568 /* LumberjackLauncherMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LumberjackLauncherMacros.h; sourceTree = "<group>"; };
-		D0C18A032DBCAB1FA7501E16 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D600D99C85D93EF7CA0389FB /* Pods-LumberjackLauncherExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LumberjackLauncherExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-LumberjackLauncherExample/Pods-LumberjackLauncherExample.release.xcconfig"; sourceTree = "<group>"; };
+		ECFB0ED9E6822299E674D6E4 /* libPods-LumberjackLauncherExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LumberjackLauncherExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93F2F00F640390D2921FB722 /* libPods.a in Frameworks */,
+				8295DA0E0B8A0936C2AA96CA /* libPods-LumberjackLauncherExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,29 +68,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F6DB1B5FD8A997078A45F5F /* libPods-LumberjackLauncherExampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0838AB266B8AF0DB02FDDC1A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				388CD2240C2648D269E11CB5 /* libPods.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		86D324196945A5CDCA9E750D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				23CE399835D3D02DA2B99EC1 /* Pods.debug.xcconfig */,
-				D0C18A032DBCAB1FA7501E16 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		B87258A01AE0A70700B93482 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +82,8 @@
 				B87258D21AE0A82000B93482 /* LumberjackLauncher */,
 				B87258C51AE0A70700B93482 /* LumberjackLauncherExampleTests */,
 				B87258AA1AE0A70700B93482 /* Products */,
-				86D324196945A5CDCA9E750D /* Pods */,
-				0838AB266B8AF0DB02FDDC1A /* Frameworks */,
+				D97746E28584E2262C552F8C /* Pods */,
+				CABE3D43A261257A72260673 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,6 +149,26 @@
 			path = ../../Classes/LumberjackLauncher;
 			sourceTree = "<group>";
 		};
+		CABE3D43A261257A72260673 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60C7D540966101C03C2CA934 /* libPods-LumberjackLauncherExample.a */,
+				ECFB0ED9E6822299E674D6E4 /* libPods-LumberjackLauncherExampleTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D97746E28584E2262C552F8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F991A339BCE8146051F6C1B /* Pods-LumberjackLauncherExample.debug.xcconfig */,
+				D600D99C85D93EF7CA0389FB /* Pods-LumberjackLauncherExample.release.xcconfig */,
+				625917274F1CCCF8326E6063 /* Pods-LumberjackLauncherExampleTests.debug.xcconfig */,
+				8FEFAAD8E91C77222A780B34 /* Pods-LumberjackLauncherExampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,11 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B87258CC1AE0A70700B93482 /* Build configuration list for PBXNativeTarget "LumberjackLauncherExample" */;
 			buildPhases = (
-				ED0E39064A5D81D33D11F7C4 /* Check Pods Manifest.lock */,
+				B018E8CC828919789D897F71 /* [CP] Check Pods Manifest.lock */,
 				B87258A51AE0A70700B93482 /* Sources */,
 				B87258A61AE0A70700B93482 /* Frameworks */,
 				B87258A71AE0A70700B93482 /* Resources */,
-				8DA4EB5430DB6506099118E0 /* Copy Pods Resources */,
+				1230691432346AC1E95CB069 /* [CP] Embed Pods Frameworks */,
+				9C659D6AD2AF117DEA4A5DE5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B87258CF1AE0A70700B93482 /* Build configuration list for PBXNativeTarget "LumberjackLauncherExampleTests" */;
 			buildPhases = (
+				3053572067646A503BFB4F22 /* [CP] Check Pods Manifest.lock */,
 				B87258BE1AE0A70700B93482 /* Sources */,
 				B87258BF1AE0A70700B93482 /* Frameworks */,
 				B87258C01AE0A70700B93482 /* Resources */,
+				495E96D010AD6BC29F363518 /* [CP] Embed Pods Frameworks */,
+				8AB6379F78F6C7D9D2A4EE5E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,7 +219,7 @@
 		B87258A11AE0A70700B93482 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Yu Sugawara";
 				TargetAttributes = {
 					B87258A81AE0A70700B93482 = {
@@ -259,34 +271,103 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8DA4EB5430DB6506099118E0 /* Copy Pods Resources */ = {
+		1230691432346AC1E95CB069 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LumberjackLauncherExample/Pods-LumberjackLauncherExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		ED0E39064A5D81D33D11F7C4 /* Check Pods Manifest.lock */ = {
+		3053572067646A503BFB4F22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LumberjackLauncherExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		495E96D010AD6BC29F363518 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LumberjackLauncherExampleTests/Pods-LumberjackLauncherExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AB6379F78F6C7D9D2A4EE5E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LumberjackLauncherExampleTests/Pods-LumberjackLauncherExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C659D6AD2AF117DEA4A5DE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LumberjackLauncherExample/Pods-LumberjackLauncherExample-resources.sh",
+				"${PODS_ROOT}/LumberjackConsole/Source/LumberjackConsole.storyboard",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LumberjackLauncherExample/Pods-LumberjackLauncherExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B018E8CC828919789D897F71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LumberjackLauncherExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -349,13 +430,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -393,13 +482,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -424,13 +521,13 @@
 		};
 		B87258CD1AE0A70700B93482 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23CE399835D3D02DA2B99EC1 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 3F991A339BCE8146051F6C1B /* Pods-LumberjackLauncherExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = LumberjackLauncherExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yusuga.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = LumberjackLauncherExample;
@@ -439,13 +536,13 @@
 		};
 		B87258CE1AE0A70700B93482 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0C18A032DBCAB1FA7501E16 /* Pods.release.xcconfig */;
+			baseConfigurationReference = D600D99C85D93EF7CA0389FB /* Pods-LumberjackLauncherExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = LumberjackLauncherExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yusuga.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = LumberjackLauncherExample;
@@ -454,6 +551,7 @@
 		};
 		B87258D01AE0A70700B93482 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 625917274F1CCCF8326E6063 /* Pods-LumberjackLauncherExampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -471,6 +569,7 @@
 		};
 		B87258D11AE0A70700B93482 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FEFAAD8E91C77222A780B34 /* Pods-LumberjackLauncherExampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";

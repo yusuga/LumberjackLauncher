@@ -6,6 +6,12 @@
 //  Copyright © 2015 Yu Sugawara. All rights reserved.
 //
 
+#if DEBUG
+static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
+#else
+static const DDLogLevel ddLogLevel = DDLogLevelWarning;
+#endif
+
 #define dd_func_str(frmt, ...) dd_func_str_w(self, frmt, ##__VA_ARGS__)
 
 #define dd_func_str_w(wself, frmt, ...) ^NSString *(id obj, NSString *format, ...){\
